@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #70E0E0;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 32%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hobby-categories {
+    margin-top: 20px;
+}
+
+.hobby-categories dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hobby-categories dd {
+    margin-left: 20px;
+}
+
+.hobby-categories dd dl dt {
+    font-weight: normal;
+}
+
+.hobby-categories dd dl dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
